@@ -1,0 +1,28 @@
+{
+  "name": "counter",
+	"title": "jQuery Counter",
+	"description": "动画效果计数器",
+	"keywords": [
+		"counter",
+		"animation"
+	],
+	"version": "beta",
+	"author": {
+		"name": "Bian Bing",
+		"email": "",
+		"url": ""
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/MIT"
+		}
+	],
+	"bugs": "https://github.com/bzjbest/jquery-counter/issues",
+	"homepage": "https://github.com/bzjbest/jquery-counter",
+	"docs": "",
+	"download": "",
+	"dependencies": {
+		"jquery": ">=1.7.2"
+	}
+}
