@@ -1,0 +1,7 @@
+#outline_wrapper {
+    height: 160px;
+    overflow: hidden;
+    padding: 24px 25px 0;
+    position: relative;
+    width: 450px;
+}

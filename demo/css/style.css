@@ -1,0 +1,147 @@
+div, ul, ol, li{
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0 none;
+}
+ol, ul {
+    list-style: none outside none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+}
+@font-face {
+    font-family: "AlternateBoldFont";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/AlternateBoldFont/alternateboldfont-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/AlternateBoldFont/alternateboldfont-webfont.woff") format("woff"), url("../fonts/AlternateBoldFont/alternateboldfont-webfont.ttf") format("truetype"), url("../fonts/AlternateBoldFont/alternateboldfont-webfont.svg#AlternateBoldFont") format("svg");
+}
+@font-face {
+    font-family: "Icons";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Icons/icons2-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Icons/icons2-webfont.woff") format("woff"), url("../fonts/Icons/icons2-webfont.ttf") format("truetype"), url("../fonts/Icons/icons2-webfont.svg#AlternateBoldFont") format("svg");
+}
+@font-face {
+    font-family: "MHei HK Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/AsianFonts/MHei HK Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AsianFonts/MHei HK Bold.woff") format("woff"), url("../fonts/AsianFonts/MHei HK Bold.ttf") format("truetype"), url("../fonts/AsianFonts/MHei HK Bold.svg#AlternateBoldFont") format("svg");
+}
+@font-face {
+    font-family: "MHei PRC Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/AsianFonts/MHei PRC Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AsianFonts/MHei PRC Bold.woff") format("woff"), url("../fonts/AsianFonts/MHei PRC Bold.ttf") format("truetype"), url("../fonts/AsianFonts/MHei PRC Bold.svg#AlternateBoldFont") format("svg");
+}
+body .alt_header_font {
+    font-family: 'AlternateBoldFont',Arial,Verdana,sans-serif;
+}
+body.en .alt_header_font {
+    font-family: 'AlternateBoldFont',Arial,Verdana,sans-serif;
+}
+body.zh_TW .alt_header_font {
+    font-family: 'AlternateBoldFont','MHei HK Bold';
+}
+body.zh_CN .alt_header_font {
+    font-family: 'AlternateBoldFont','MHei PRC Bold';
+}
+body .icon_font {
+    font-family: 'Icons';
+}
+body .normal_font {
+    font-family: sans-serif;
+}
+
+#counter_wrapper {
+    display: block;
+    float: left;
+    height: 70px;
+    margin: 0 7px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 450px;
+}
+
+#counter_wrapper #counter_inner {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+#counter_wrapper .counter_banner {
+	background: no-repeat scroll 7px 5px #CECECE;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    margin-bottom: 5px;
+    padding: 0 4px 0 70px;
+    vertical-align: middle;
+}
+
+#counter_wrapper #step_counter {
+    background-image: url("../images/steps_metric.png");
+}
+
+#counter_wrapper ul.counter {
+    display: inline-block;
+    height: 44px;
+}
+#counter_wrapper ul.counter > li {
+    float: left;
+    font-size: 31px;
+    text-align: center;
+}
+#counter_wrapper ul.counter > li.number {
+    background: url("../images/number_background.png") repeat scroll center 1px transparent;
+    height: 44px;
+    width: 30px;
+}
+#counter_wrapper ul.counter > li.number .number_viewport {
+    height: 36px;
+    margin: 5px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 30px;
+}
+#counter_wrapper ul.counter > li.number .number_inner {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 30px;
+}
+#counter_wrapper ul.counter > li.number .number_inner li {
+    display: block;
+    height: 36px;
+}
+#counter_wrapper ul.counter > li.comma {
+    padding: 13px 0 0;
+    width: 15px;
+}
+#counter_wrapper .label {
+    color: #ABABAB;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+
+#outline_wrapper {
+    height: 160px;
+    overflow: hidden;
+    padding: 24px 25px 0;
+    position: relative;
+    width: 450px;
+}
+

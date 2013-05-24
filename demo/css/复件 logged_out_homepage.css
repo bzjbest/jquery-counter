@@ -1,0 +1,1437 @@
+
+body #page_content {
+    width: auto;
+}
+#page_content .content_wrapper {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/public_section_shadow.png") repeat-x scroll center 0 transparent;
+}
+.section {
+}
+a.product_anchor {
+    display: block;
+    height: 1px;
+    width: 1px;
+}
+.content {
+    margin: auto;
+    padding: 60px 25px;
+    width: 950px;
+}
+.arrow {
+    font-family: Icons;
+    margin-left: -1px;
+}
+.content .button {
+    text-transform: uppercase;
+}
+.content h1 {
+    font-size: 44px;
+}
+.content h2, .content h3 {
+}
+.content h2 {
+    color: #363636;
+    font-family: 'StandardFont',Arial,Verdana,sans-serif;
+    font-size: 32px;
+    letter-spacing: -0.03em;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.pl_PL .content h2 {
+    font-family: Arial,Verdana,sans-serif;
+}
+.content h3 {
+    font-size: 24px;
+    line-height: 18px;
+}
+.content h4 {
+    color: #717171;
+    font-size: 12px;
+    text-align: center;
+}
+.content p {
+    color: #666666;
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 8px;
+}
+.content p.subhead {
+    font-size: 14px;
+}
+#page_heading {
+    position: relative;
+    z-index: 500;
+}
+#page_nav {
+    background: -moz-linear-gradient(center top , #F5F6F6 0%, #E5E5E5 100%) repeat scroll 0 0 transparent;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.23);
+    font-size: 15px;
+    height: 36px;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 20;
+}
+#page_nav_button_wrapper {
+    display: inline-block;
+}
+#page_nav ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent #CDCDCD transparent #F9F6F6;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 100%;
+    letter-spacing: -0.005em;
+    overflow: hidden;
+}
+#page_nav li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent #F9F6F6 transparent #CDCDCD;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 248px;
+}
+#page_nav li:hover, #page_nav li.current {
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2) inset;
+    margin: -1px -1px 0 0;
+    padding: 1px 1px 0 0;
+}
+#page_nav li.back_to_top {
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+}
+#page_nav li.back_to_top a {
+    padding: 0 0 0 7px;
+}
+#page_nav li:last-child {
+}
+#page_nav a {
+    color: #999999;
+    display: block;
+    font-weight: bold;
+    line-height: 38px;
+    text-decoration: none;
+}
+#page_nav li:hover a, #page_nav li.current a {
+    color: #999999 !important;
+}
+#products_page #page_nav li:hover a, #products_page #page_nav li.current a {
+    color: #FFFFFF !important;
+}
+.share_btns {
+    display: inline-block;
+    margin: 0 8px;
+    vertical-align: middle;
+}
+.share_btns > div {
+    float: right;
+    margin: auto 4px;
+}
+.share_btns > div.facebook {
+}
+#products_page #page_nav {
+    background: none repeat scroll 0 0 #0B0A0B !important;
+    border: medium none;
+    box-shadow: none;
+    filter: none !important;
+    font-size: 15px;
+    height: 70px;
+    overflow: visible;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 20;
+}
+#products_page #page_nav .inner-wrapper {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+#products_page #page_nav h1 {
+    float: left;
+}
+#products_page #page_nav ul {
+    border: medium none;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    margin-left: 20px;
+    overflow: hidden;
+}
+#products_page #page_nav li {
+    border: medium none;
+    float: left;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    width: 180px;
+}
+body.fr_FR #products_page #page_nav li {
+    width: 160px;
+}
+body.ja_JP #products_page.sports_band #page_nav ul li, body.ja_JP #products_page.sports_watch #page_nav ul li, body.ja_JP #products_page.gps_app #page_nav ul li {
+    width: 195px;
+}
+#products_page #page_nav li:hover {
+    background: none repeat scroll 0 0 transparent;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+#products_page #page_nav li.current:hover {
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2) inset;
+    cursor: default;
+}
+#products_page #page_nav li.back_to_top {
+    font-size: 20px;
+    padding-left: 7px;
+    text-align: center;
+    width: 20px;
+}
+#products_page #page_nav ul li a {
+    color: #999999;
+    display: block;
+    font-weight: normal;
+    line-height: 70px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+#products_page #page_nav a:hover {
+    color: #FFFFFF;
+}
+#products_page #page_nav li.current a:hover {
+    color: #999999;
+}
+#beta {
+    top: 112px;
+}
+#page_content_wrapper {
+    padding-bottom: 0;
+}
+#page_content {
+    width: auto;
+}
+#homepage {
+    margin: 0;
+    width: auto;
+}
+#homepage .content {
+}
+#homepage .content h3 {
+    color: #363636;
+    font-family: 'StandardFont',Arial,Verdana,sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+}
+.pl_PL #homepage .content h3 {
+    font-family: Arial,Verdana,sans-serif;
+}
+body.ja_JP #homepage .content h3 {
+    font-size: 20px;
+}
+body.ko_KR #homepage .content h3 {
+    font-size: 18px;
+}
+.main_tout {
+    height: 474px;
+}
+#fuelband_tout {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/fuelband_tout.jpg") no-repeat scroll center -4px #040404;
+    text-align: center;
+}
+#fuelband_tout a {
+    display: inline-block;
+    text-decoration: none;
+}
+.tout_inner {
+    height: 429px;
+    margin: 0 auto;
+    padding-top: 34px;
+    position: relative;
+    width: 1000px;
+}
+.tout_inner h1, .tout_inner h2 {
+    text-align: center;
+}
+.tout_inner h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+    letter-spacing: -0.04em;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tout_inner h2 {
+    color: #818181;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -2px;
+}
+.tout_inner h2 .icon_font {
+    font-size: 14px;
+}
+.tout_inner h2:hover {
+    color: #FFFFFF;
+}
+.tout_inner .button.button_green {
+    font-size: inherit;
+    position: absolute;
+    right: 18px;
+}
+#fuelband_tout_setup {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 445px;
+    width: 100%;
+}
+#fuelband_tout_setup a {
+    color: #818181;
+    display: inline;
+    font-size: 13px;
+}
+#fuelband_tout_setup a:hover {
+    color: #FFFFFF;
+}
+#fuelband_tout_setup .cta {
+    text-transform: uppercase;
+}
+#new_product_links {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/products_navbar_background.png") no-repeat scroll center 30px #FFFFFF;
+    position: relative;
+}
+#new_product_links div.button_container {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/button_container_background.png") no-repeat scroll center bottom transparent;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+}
+#new_product_links div.button_container a {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/products_navbar_sprite.png");
+    background-repeat: no-repeat;
+}
+#new_product_links a.running {
+    background-position: 0 0;
+}
+#new_product_links a.fuelband {
+    background-position: -188px 0;
+}
+#new_product_links a.training {
+    background-position: -376px 0;
+}
+#new_product_links a.basketball {
+    background-position: -564px 0;
+}
+#new_product_links a.kinect {
+    background-position: -752px 0;
+}
+#new_product_links a.sportwatch {
+    background-position: -940px 0;
+}
+#new_product_links a.gps {
+    background-position: -1128px 0;
+}
+#new_product_links a.sportband {
+    background-position: -1316px 0;
+}
+#new_product_links a.nano {
+    background-position: -1504px 0;
+}
+#new_product_links div.button_container a {
+    color: #707070;
+    display: block;
+    float: left;
+    height: 134px;
+    padding-top: 108px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 188px;
+}
+.ru_RU #new_product_links div.button_container a {
+    height: 212px;
+}
+#new_product_links div.button_container a + a {
+    margin-left: 14px;
+}
+#new_product_links div.button_container a:after {
+    background: none repeat scroll 0 0 #FFFFFF;
+    bottom: 0;
+    content: " ";
+    height: 12px;
+    left: 0;
+    opacity: 100;
+    position: absolute;
+    width: 202px;
+}
+#new_product_links.expanded div.button_container a {
+    opacity: 0.5;
+}
+#new_product_links.expanded div.button_container a.running {
+    opacity: 1;
+}
+#new_product_links.expanded div.button_container a.running:after {
+    background: none repeat scroll 0 0 transparent;
+    content: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/product_links_selected.gif");
+    width: 1000px;
+}
+#new_product_links div.banner, #new_product_tray div.banner {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/products_navbar_banner.png") no-repeat scroll 0 0 transparent;
+    color: #686868;
+    font-size: 18px;
+    height: 37px;
+    left: -22px;
+    line-height: 37px;
+    padding: 3px 0 6px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    width: 242px;
+}
+#new_product_links div.banner {
+    display: none;
+}
+#new_product_links .product_rollover div.banner {
+    display: block;
+    left: -8px;
+    top: 15px;
+}
+#new_product_tray div.banner {
+    left: 20px;
+    top: 40px;
+}
+#new_product_links a.comingsoon, #new_product_tray a.comingsoon {
+    cursor: default;
+}
+#new_product_tray a.comingsoon span.arrow_right {
+    display: none;
+}
+#new_product_links h6 {
+    font-size: 12.5px;
+    line-height: 15px;
+}
+#new_product_links h1 {
+    border-bottom: 1px solid #E5E5E5;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 9px;
+    margin-top: -4px;
+    position: relative;
+    text-transform: uppercase;
+}
+.ru_RU #new_product_links h1 {
+    height: 64px;
+}
+#new_product_links div.product_rollover h1 {
+}
+#new_product_links h1 span.arrow_down {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #BFBFBF transparent transparent;
+    border-image: none;
+    border-right: 4px solid transparent;
+    border-style: solid;
+    border-width: 4px;
+    display: inline-block;
+    margin-top: -4px;
+    vertical-align: middle;
+}
+#new_product_links.expanded span.arrow_down {
+    border-top-color: #000000;
+}
+#new_product_links p {
+    font-size: 11px;
+    line-height: 16px;
+    padding: 0 8px;
+}
+#new_product_links div.product_rollover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 50px;
+    margin-top: -15px;
+    position: absolute;
+    top: -20px;
+}
+#new_product_links div.product_rollover a {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/products_navbar_rollover_sprite.jpg");
+    background-repeat: no-repeat;
+    color: #707070;
+    display: block;
+    height: 118px;
+    margin: 0 13px;
+    padding: 135px 0 12px;
+    text-align: center;
+    text-decoration: none;
+    width: 188px;
+}
+.ru_RU #new_product_links div.product_rollover a {
+    height: 196px;
+}
+#new_product_tray {
+    display: none;
+    overflow: hidden;
+}
+#new_product_tray .content_wrapper {
+    background: url("/images/logged_out/homepage/product_tray_background.png") no-repeat scroll center top #FFFFFF;
+}
+#new_product_tray .content {
+    padding: 28px 0;
+    width: 1000px;
+}
+#new_product_tray ul {
+    overflow: hidden;
+}
+#new_product_tray ul li {
+    float: left;
+    padding: 20px 0;
+    position: relative;
+    width: 480px;
+}
+#new_product_tray ul li a {
+    color: #666666;
+    display: block;
+    height: 175px;
+    overflow: hidden;
+    text-decoration: none;
+}
+#new_product_tray img {
+    float: left;
+    margin: 0 15px 0 20px;
+}
+#new_product_tray li + li + li img {
+    margin-left: 20px;
+}
+#new_product_tray li + li img, #new_product_tray li + li + li + li img {
+    margin-left: 40px;
+}
+#new_product_tray h5 {
+    color: #262626;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 25px 0 0;
+}
+#new_product_tray span.arrow_right {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent transparent #262626;
+    border-image: none;
+    border-style: solid;
+    border-width: 5px;
+    display: inline-block;
+    line-height: 22px;
+    margin-top: -5px;
+}
+#new_product_tray p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 20px 0 0;
+}
+#new_product_tray ul li, #new_product_tray ul li + li + li {
+    margin: 0 20px 0 0;
+}
+#new_product_tray ul li + li, #new_product_tray ul li + li + li + li {
+    margin: 0 0 0 20px;
+}
+#new_product_tray li + li + li {
+    border-top: 1px solid #E0E0E0;
+}
+#new_product_tray li a {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/running_products.png");
+    background-repeat: no-repeat;
+    padding-left: 275px;
+}
+#new_product_tray li.sportwatch a {
+    background-position: -4px -53px;
+    margin: 0 20px 0 0;
+}
+#new_product_tray li.gps a {
+    background-position: -500px -29px;
+    border-left: 1px solid #E0E0E0;
+    height: 185px;
+    margin: 0 0 0 -20px;
+    padding-left: 295px;
+}
+#new_product_tray li.sportband a {
+    background-position: -4px -254px;
+    margin: 0 20px 0 0;
+}
+#new_product_tray li.nano a {
+    background-position: -486px -255px;
+    border-left: 1px solid #E0E0E0;
+    margin: 0 0 0 -20px;
+    padding-left: 295px;
+}
+#product_links {
+    background: -moz-linear-gradient(center top , #F9F9F9 0%, #D8D8D8 100%) repeat scroll 0 0 transparent;
+    display: none;
+}
+#product_links > ul {
+    border-right: 1px solid #F9F9F9;
+    height: 113px;
+    margin: 0 auto;
+    width: 999px;
+}
+#product_links > ul > li {
+    background: -moz-linear-gradient(center top , #F9F9F9 0%, #D2D2D2 100%) repeat scroll 0 0 transparent;
+    border-left: 1px solid #F9F9F9;
+    border-right: 1px solid #CACACA;
+    float: left;
+    position: relative;
+}
+#product_links > ul > li:hover {
+    background: -moz-linear-gradient(center top , #E1E1E1 0%, #C5C5C5 100%) repeat scroll 0 0 transparent;
+}
+#product_links > ul > li:first-child {
+    background: none repeat scroll 0 0 transparent;
+    border-left: 0 none;
+    filter: none;
+}
+#product_links > ul > li:first-child a {
+    width: 222px;
+}
+#product_links > ul > li.active {
+    background: -moz-linear-gradient(center top , #FFFFFF 0%, #F9F9F9 100%) repeat scroll 0 0 transparent;
+    border-color: transparent;
+}
+#product_links > ul > li .shadow {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/products_button_shadow.png") no-repeat scroll 0 0 transparent;
+    display: none;
+    height: 113px;
+    position: absolute;
+    right: -9px;
+    top: 0;
+    width: 6px;
+    z-index: 5;
+}
+#product_links > ul > li.active .shadow {
+    display: block;
+}
+#product_links > ul > li > a {
+    color: #656565;
+    display: block;
+    height: 83px;
+    padding: 20px 10px 10px 30px;
+    position: relative;
+    text-decoration: none;
+    width: 326px;
+}
+#product_links > ul > li > a > h2 {
+    color: #464646;
+    font-family: 'StandardFont',Arial,Verdana,sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    line-height: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 173px;
+    word-spacing: -0.03em;
+}
+#product_links > ul > li.active > a, #product_links > ul > li > a:hover {
+    color: #151515 !important;
+}
+#product_links > ul > li > a .corner {
+    bottom: 4px;
+    position: absolute;
+    right: 0;
+}
+#product_links > ul > li > a .arrow {
+    font-size: 21px;
+}
+#product_links > ul > li > a .arrow.up {
+    bottom: 0;
+    display: none;
+}
+#product_links .link {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/product_links.png") repeat scroll 0 0 transparent;
+}
+#product_links > ul > li > a {
+    background-position: -16px 0;
+    color: #464646;
+    font-family: inherit;
+    font-size: 13px;
+}
+#product_links > ul > li > a#shop_all_link h2 {
+}
+#product_links > ul > li > a#shop_all_link p {
+    line-height: 16px;
+    width: 100px;
+}
+#product_links > ul > li > a#shop_all_link .corner {
+    bottom: 6px;
+    color: #464646;
+    font-family: "Helvetica";
+    font-weight: bold;
+    right: 11px;
+    text-transform: uppercase;
+}
+#product_links > ul > li > a#shop_all_link:hover .corner {
+    color: inherit;
+}
+#product_links > ul > li > a#running_link {
+    background-position: -276px 0;
+}
+#product_links > ul > li > a#all_day_link {
+    background-position: -632px 0;
+}
+#homepage #product_links #shop_all_link {
+    height: 69px;
+    padding-top: 34px;
+}
+#product_sections {
+    background: -moz-linear-gradient(center top , #F9F9F9 0%, #FFFFFF 10%, #FEFEFE 69%, #FFFFFF 69%, #F3F3F3 100%) repeat scroll 0 0 transparent;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+#homepage #product_sections .content {
+    height: 100%;
+    padding: 0;
+    width: 974px;
+}
+#product_sections .section {
+    display: none;
+    height: 100%;
+}
+#product_sections .section .row:first-child {
+    margin-top: 18px;
+}
+#product_sections .section .product {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #E0E0E0;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    float: left;
+    height: 156px;
+    margin-top: 40px;
+}
+#product_sections .section .product:first-child {
+    border-left: 0 none;
+}
+#product_sections .section .product .copy > * {
+    float: left;
+}
+#product_sections .section .product a.img_link {
+    height: 176px;
+    vertical-align: top;
+    width: 250px;
+}
+#product_sections .section .product:first-child a.img_link {
+    width: 212px;
+}
+#product_sections .section .product .text {
+    width: 184px;
+}
+#product_sections .section .product .copy {
+    border-top-color: inherit;
+    border-top-style: inherit;
+    border-width: 1px 0 0;
+    display: inline-block;
+    height: 100%;
+    margin: -20px 20px 0;
+    padding: 0 28px 0 0;
+}
+#product_sections .section .row:first-child .product .copy {
+    border-top: 0 none;
+}
+#product_sections .section .product:first-child .copy {
+}
+#product_sections .section .product h3 {
+    font-family: inherit;
+    line-height: 28px;
+    margin-top: 7px;
+    white-space: nowrap;
+}
+#product_sections .section .product h3 a {
+    color: #262626;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+}
+#product_sections .section .product h3 .arrow {
+    font-size: 20px;
+}
+#product_sections .section .product p {
+    font-size: 14px;
+    line-height: 20px;
+}
+#product_sections #running_section.section {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/running_products.png") no-repeat scroll -45px -19px transparent;
+}
+#product_sections #all_day_section.section {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/all_day_products.png") no-repeat scroll -37px -18px transparent;
+    overflow: hidden;
+    width: 100%;
+}
+#join_section_wrapper {
+    background: linear-gradient(#E2E2E2 0px, #F2F2F2 2px, #DEDEDE 142px, #E1E1E1 193px, #FEFEFE 404px, #FFFFFF 445px, #FFFFFF 100%) repeat scroll 0 0 transparent;
+    clear: both;
+    margin: 0 auto;
+    padding: 0 0 50px;
+}
+#join_section_wrapper .content_wrapper {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/subsection_shadow.jpg") no-repeat scroll center top #FFFFFF;
+}
+#join_section_wrapper .community_facebook {
+    left: 422px;
+    position: absolute;
+    top: 112px;
+    width: 450px;
+}
+#activity_heading {
+    padding-bottom: 30px;
+    text-align: center;
+}
+#join_wrapper {
+    height: 160px;
+    overflow: hidden;
+    padding: 24px 25px 0;
+    position: relative;
+    width: 1000px;
+}
+#join_wrapper h2 {
+    margin-top: 32px;
+    max-width: 350px;
+}
+.ja_JP #join_wrapper h2 {
+    line-height: 30px;
+    margin-top: 0;
+}
+#join_wrapper p.subhead {
+    color: #363636;
+    max-width: 305px;
+}
+#join_wrapper #fuel_join {
+    left: 422px;
+    position: absolute;
+    top: 26px;
+}
+#join_wrapper #fuel_join:before {
+}
+#join_wrapper #homepage_counter_wrapper {
+    display: block;
+    float: left;
+    height: 70px;
+    margin: 0 7px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 450px;
+}
+#join_wrapper #homepage_counter_inner {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#join_wrapper .homepage_counter {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/fuel_metric.png") no-repeat scroll 7px 5px #CECECE;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    margin-bottom: 5px;
+    padding: 0 4px 0 70px;
+    vertical-align: middle;
+}
+#join_wrapper #calorie_counter {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/calories_metric.png") no-repeat scroll 7px 5px #CECECE;
+}
+#join_wrapper #step_counter {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/steps_metric.png") no-repeat scroll 7px 5px #CECECE;
+}
+#join_wrapper ul.counter {
+    display: inline-block;
+    height: 44px;
+}
+#join_wrapper ul.counter > li {
+    float: left;
+    font-size: 31px;
+    text-align: center;
+}
+#join_wrapper ul.counter > li.number {
+    background: url("../images/number_background.png") repeat scroll center 1px transparent;
+    height: 44px;
+    width: 30px;
+}
+#join_wrapper ul.counter > li.number .number_viewport {
+    height: 36px;
+    margin: 5px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 30px;
+}
+#join_wrapper ul.counter > li.number .number_inner {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 30px;
+}
+#join_wrapper ul.counter > li.number .number_inner li {
+    display: block;
+    height: 36px;
+}
+#join_wrapper ul.counter > li.comma {
+    padding: 13px 0 0;
+    width: 15px;
+}
+#join_wrapper .label {
+    color: #ABABAB;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+#join_wrapper #join_btn_wrapper {
+    border-left: 1px solid #C7C7C7;
+    display: inline-block;
+    height: 32px;
+    margin: 24px 0 0;
+    padding-left: 8px;
+}
+#join_wrapper a#join_btn {
+    font-size: 12.5px;
+    margin-top: -2px;
+    max-width: 100px;
+    padding-bottom: 5px;
+}
+body.fr_FR #join_wrapper a#join_btn {
+    line-height: 15px;
+}
+#activity_list {
+    height: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1038px;
+}
+#activity_list li {
+    float: left;
+    padding: 0 5px;
+    position: relative;
+    width: 230px;
+}
+#activity_list li .activity_tout {
+    display: block;
+    margin: 0 auto;
+}
+#activity_list li.fuel > h1 {
+    color: white;
+    font-size: 30px;
+    left: 11px;
+    position: absolute;
+    text-align: center;
+    top: 65px;
+    width: 218px;
+}
+#activity_list li.fuel > h1 > span {
+    font: bold 13px Icons;
+    opacity: 0.6;
+    position: relative;
+    top: -11px;
+}
+#activity_list li.fuel > h2 {
+    color: white;
+    font-size: 12px;
+    left: 11px;
+    position: absolute;
+    text-align: center;
+    top: 95px;
+    width: 218px;
+}
+#activity_list li .activity_avatar {
+    left: 20px;
+    position: absolute;
+    top: 145px;
+}
+#activity_list .faded {
+    opacity: 0.25;
+}
+#activity_list li .description {
+    color: gray;
+    line-height: 17px;
+    padding: 0 15px 0 75px;
+}
+.community_cards_page {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1038px;
+}
+.community_cards_page .card_wrapper {
+    float: left;
+    padding: 4px 18px 0;
+}
+.community_cards_page .card_wrapper .img_outter {
+    height: 236px;
+    overflow: hidden;
+    position: relative;
+}
+.community_cards_page .card_wrapper .img_inner {
+    position: absolute;
+    top: 0;
+}
+.community_cards_page .card_wrapper img {
+    display: block;
+}
+.community_cards_page .card_wrapper .card_bar {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/card_bar.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 60px;
+    line-height: 52px;
+    overflow: hidden;
+    width: 310px;
+}
+.community_cards_page .card_wrapper .card_bar h1 {
+    color: #333333;
+    float: left;
+    font-size: 22px;
+    padding: 0 15px 0 25px;
+}
+.community_cards_page .card_wrapper .card_bar span {
+    color: #666666;
+    float: left;
+    font-size: 14px;
+}
+#join_section_wrapper > .button {
+    display: block;
+    margin: 35px auto 0;
+    text-align: center;
+    width: 100px;
+}
+#common_language {
+    background: linear-gradient(#E2E2E2 0px, #F2F2F2 2px, #F2F2F2 167px, #F3F3F3 168px, #F3F3F3 201px, #F4F4F4 202px, #FFFFFF 404px, #FFFFFF 100%) repeat scroll 0 0 transparent;
+    padding: 0 0 40px;
+}
+#homepage #common_language .content_wrapper {
+}
+#homepage #common_language .content {
+    padding-bottom: 12px;
+    width: 965px;
+}
+#homepage #common_language .content .activities_spacer {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/why_join_athletes.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 191px;
+    margin-bottom: 0;
+    margin-left: 36px;
+    margin-top: 20px;
+    width: 979px;
+}
+#homepage #common_language .content p {
+    font-size: 14px;
+    margin-top: 17px;
+}
+#homepage #common_language .content p a {
+    color: #000000;
+    text-decoration: none;
+}
+#homepage #common_language .content p a .icon_font {
+    font-size: 16px;
+}
+#common_language > h1 {
+    font-size: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+#common_language > h2 {
+    color: gray;
+    font-size: 18px;
+    margin: 10px 0 0;
+    text-align: center;
+}
+#common_language #learn_more_link {
+    float: right;
+    font-size: inherit;
+    margin-top: -5px;
+}
+#common_language .col_container {
+    margin: 50px auto 0 -50px;
+    min-height: 105px;
+    overflow: hidden;
+}
+#common_language .col_container .left, #common_language .col_container .right {
+    float: left;
+    height: 140px;
+    width: 408px;
+}
+#common_language .col_container h3 {
+    margin-top: 28px;
+}
+#common_language .col_container .left {
+    padding: 0 52px;
+}
+#common_language .col_container .right {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/why_join_divider.png") no-repeat scroll 0 0 transparent;
+    padding: 0 0 0 70px;
+}
+#common_language .col_container > div > h1 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+#common_language .col_container > div > h2 {
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+}
+#why_join {
+    background: linear-gradient(#E2E2E2 0px, #F2F2F2 2px, #F2F2F2 167px, #F3F3F3 168px, #F3F3F3 201px, #F4F4F4 202px, #FFFFFF 404px, #FFFFFF 100%) repeat scroll 0 0 transparent;
+}
+#why_join p.subhead a {
+    color: #000000;
+    text-decoration: none;
+}
+#why_join .top, #why_join .bottom {
+    margin: 80px 0 0;
+}
+#why_join .content {
+    width: 975px;
+}
+#why_join .top {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/why_join_top.png") no-repeat scroll 0 0 transparent;
+    margin-top: 70px;
+    overflow: hidden;
+}
+#why_join .bottom {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/why_join_bottom.png") no-repeat scroll 0 0 transparent;
+    margin-top: 40px;
+    overflow: hidden;
+}
+#why_join .box {
+    float: left;
+    margin-left: 54px;
+    width: 200px;
+}
+#why_join .box:first-child {
+    margin-left: 0;
+}
+#why_join .box.last {
+}
+#why_join .box .image {
+    height: 150px;
+}
+#why_join #train_smarter.box .image {
+}
+#why_join #find_better_route.box .image {
+}
+#why_join #share_success.box .image {
+}
+#why_join .box p {
+    line-height: 18px;
+}
+.hero {
+    height: 469px;
+    overflow: hidden;
+    width: 100%;
+}
+.zh_CN .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/GameOnWorld_ZH_CN.jpg") no-repeat scroll center top #FFFFFF;
+}
+.fr_FR .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/fr_fr.jpg") no-repeat scroll center top #FFFFFF;
+}
+.de_DE .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/de_de.jpg") no-repeat scroll center top #FFFFFF;
+}
+.es_ES .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/es_es.jpg") no-repeat scroll center top #FFFFFF;
+}
+.es_LA .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/es_la.jpg") no-repeat scroll center top #FFFFFF;
+}
+.pt_BR .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/pt_br.jpg") no-repeat scroll center top #FFFFFF;
+}
+.ja_JP .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/ja_jp.jpg") no-repeat scroll center top #FFFFFF;
+}
+.ko_KR .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/ko_kr.jpg") no-repeat scroll center top #FFFFFF;
+}
+.zh_TW .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/zh_tw.jpg") no-repeat scroll center top #FFFFFF;
+}
+.pl_PL .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/pl_pl.jpg") no-repeat scroll center top #FFFFFF;
+}
+.ru_RU .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/ru_ru.jpg") no-repeat scroll center top #FFFFFF;
+}
+.en_HK .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/en_hk.jpg") no-repeat scroll center top #FFFFFF;
+}
+.en_EU .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/en_eu.jpg") no-repeat scroll center top #FFFFFF;
+}
+.kinect_wrapper {
+    display: block;
+    margin: 70px auto 0;
+    overflow: hidden;
+    width: 950px;
+}
+.kinect_tout {
+    width: 380px;
+}
+.kinect_tout p {
+    margin-bottom: 5px;
+}
+.kinect_tout .kinect_title {
+    color: #0ED2E7;
+    font-size: 50px;
+    letter-spacing: -3px;
+    line-height: 45px;
+    text-align: center;
+}
+.kinect_tout .kinect_desc {
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+}
+.kinect_tout .kinect_sub {
+    color: #000000;
+    font-size: 10px;
+    text-align: center;
+}
+.kinect_btn {
+    margin-top: 20px;
+    width: 310px;
+}
+.kinect_btn a.buy_kinect {
+    background: none repeat scroll 0 0 #0ED2E7;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 2px 0 rgba(1, 1, 1, 0.2);
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 12px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.kinect_btn a.kinect_video {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/kinect/kinect_video.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: right;
+    height: 67px;
+    margin-right: 10px;
+    width: 101px;
+}
+body.es_LA .kinect_btn a.kinect_video, body.zh_TW .kinect_btn a.kinect_video, body.ko_KR .kinect_btn a.kinect_video, body.ja_JP .kinect_btn a.kinect_video, body.pt_BR .kinect_btn a.kinect_video {
+    display: none;
+}
+body.es_LA .kinect_btn, body.zh_TW .kinect_btn, body.ko_KR .kinect_btn, body.ja_JP .kinect_btn, body.pt_BR .kinect_btn {
+    width: 250px;
+}
+body.en_US .kinect_wrapper, body.en_CA .kinect_wrapper, body.en_GB .kinect_wrapper, body.fr_CA .kinect_wrapper, body.zh_CN .kinect_wrapper {
+    display: none;
+}
+.fuelband_1025_wrapper {
+    display: none;
+}
+body.en_US .hero.game_on_world, body.en_CA .hero.game_on_world, body.en_GB .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/fuelband_416.jpg") no-repeat scroll center top #FFFFFF;
+}
+body.fr_CA .hero.game_on_world {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/fuelband_416_fr_CA.jpg") no-repeat scroll center top #FFFFFF;
+}
+body.en_US .hero.game_on_world .fuelband_1025_wrapper, body.en_CA .hero.game_on_world .fuelband_1025_wrapper, body.fr_CA .hero.game_on_world .fuelband_1025_wrapper, body.en_GB .hero.game_on_world .fuelband_1025_wrapper, body.zh_CN .hero.game_on_world .fuelband_1025_wrapper {
+    display: block;
+    margin: 235px auto 0;
+    overflow: hidden;
+    width: 950px;
+}
+body.zh_CN .hero.game_on_world .fuelband_1025_wrapper {
+    position: relative;
+    top: -60px;
+}
+body.en_US .hero.game_on_world .fuelband_1025_video_button, body.en_CA .hero.game_on_world .fuelband_1025_video_button, body.fr_CA .hero.game_on_world .fuelband_1025_video_button, body.en_GB .hero.game_on_world .fuelband_1025_video_button, body.zh_CN .hero.game_on_world .fuelband_1025_video_button {
+    display: block;
+    margin-left: 580px;
+    overflow: hidden;
+    width: 391px;
+}
+body.fr_CA .hero.game_on_world .fuelband_1025_video_button {
+    width: 418px;
+}
+body.zh_CN .hero.game_on_world .fuelband_1025_video_button h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+body.en_US .hero.game_on_world .fuelband_1025_desc, body.en_CA .hero.game_on_world .fuelband_1025_desc, body.fr_CA .hero.game_on_world .fuelband_1025_desc, body.en_GB .hero.game_on_world .fuelband_1025_desc, body.zh_CN .hero.game_on_world .fuelband_1025_desc {
+    line-height: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 330px;
+}
+body.en_US .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_video_link, body.en_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_video_link, body.fr_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_video_link, body.en_GB .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_video_link, body.zh_CN .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_video_link {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/fuelband_416_video.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: right;
+    height: 67px;
+    margin-right: 45px;
+    width: 101px;
+}
+body.zh_CN .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_video_link {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/FuelBands1025_video_zh_CN.png") no-repeat scroll 0 0 transparent;
+}
+body.en_US .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button, body.en_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button, body.fr_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button, body.en_GB .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button, body.zh_CN .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button {
+    background: linear-gradient(to bottom, #00D1F1 0%, #0080D7 100%) repeat scroll 0 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 2px 0 rgba(1, 1, 1, 0.2);
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 8px;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+body.fr_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body.en_US .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button:hover, body.en_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button:hover, body.fr_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button:hover, body.en_GB .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button:hover, body.zh_CN .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button:hover {
+    background: linear-gradient(to bottom, #0080D7 0%, #00D1F1 100%) repeat scroll 0 0 transparent;
+}
+body.en_US .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black, body.en_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black, body.fr_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black, body.en_GB .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black, body.zh_CN .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black {
+    background: linear-gradient(to bottom, #4B4B4B 0%, #1A1A1A 100%) repeat scroll 0 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 2px 0 rgba(1, 1, 1, 0.2);
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 8px;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+body.fr_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body.en_US .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black:hover, body.en_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black:hover, body.fr_CA .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black:hover, body.en_GB .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black:hover, body.zh_CN .hero.game_on_world .fuelband_1025_video_button .fuelband_1025_button.black:hover {
+    background: linear-gradient(to bottom, #1A1A1A 0%, #656464 100%) repeat scroll 0 0 transparent;
+}
+.hero.find_your_greatness {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/FindYourGreatness.jpg") no-repeat scroll center top #FFFFFF;
+}
+.hero.greatness_is_ours {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_EN_GB_CTA.jpg") no-repeat scroll center top #000000;
+    height: 439px;
+    text-align: center;
+}
+.es_AR .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_AR.jpg");
+}
+.de .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_DE.jpg");
+}
+.es_AR .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_AR.jpg");
+}
+.es_ES .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_ES.jpg");
+}
+.es_LA .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_MX_XL.jpg");
+}
+.fr_CA .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_FR_CA.jpg");
+}
+.fr_FR .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_FR.jpg");
+}
+.ja .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_JA.jpg");
+}
+.ko .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_KO.jpg");
+}
+.es_MX .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_MX_XL.jpg");
+}
+.pt .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_PT_BR.jpg");
+}
+.ru .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_RU.jpg");
+}
+.zh_CN .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_ZH_CN.jpg");
+}
+.zh_TW .hero.greatness_is_ours {
+    background-image: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/find_your_greatness/GreatnessIsOurs_ZH_TW.jpg");
+}
+.hero.greatness_is_ours .greatness_is_ours_link {
+    display: inline-block;
+    height: 40px;
+    margin-top: 325px;
+    width: 140px;
+}
+.en .hero.greatness_is_ours {
+}
+.hero .hero-video {
+    display: none;
+}
+.hero.find_your_greatness .hero-video {
+    display: block;
+    margin: 257px auto 0;
+    overflow: hidden;
+    width: 732px;
+}
+.hero.find_your_greatness .hero-video .hero-video-link {
+    background: url("//nikeplus.nike.com/plus/web/images/logged_out/homepage/findGreatnessVideo.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 60px;
+    margin-right: 20px;
+    width: 95px;
+}
+.hero.find_your_greatness .hero-video .hero-button {
+    background: linear-gradient(to bottom, #4186B3 0%, #0756A2 100%) repeat scroll 0 0 transparent;
+    box-shadow: 0 2px 2px 0 rgba(1, 1, 1, 0.2);
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 15px;
+    margin-top: 8px;
+    padding: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
